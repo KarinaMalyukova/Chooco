@@ -1,0 +1,101 @@
+.benefits-section {
+    position: relative;
+    padding: rem(100px) rem(0px);
+
+    &:before {
+    content: url("/images/узор\ лист\ 1.png");
+    position: absolute;
+    top: 50%;  
+    }
+
+    &:after {
+        content: url("/images/decoration/малина\ 1.png");
+        position: absolute;
+        bottom: -40%;
+    }
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: rem(49px);
+}
+
+.headline__title {
+    margin-bottom: rem(19px);
+}
+
+.headline__subtitle {
+    color: $darcgrey;
+    max-width: rem(436px);
+    text-align: center;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefits__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+    &:before {
+        content: url("../../images/Combined\ shape\ 2204.png");
+        position: absolute;
+        top: rem(50px);
+        right: 0;
+        transform: translateX(50%);
+    }
+
+    &:last-child {
+        padding-right: rem(0px);
+
+        &::before {
+            display: none;
+        }
+    }
+}
+
+.benefit__desc {
+    margin-right: rem(52px);
+
+    &:last-child {
+        margin-right: rem(0px);
+    }
+}
+
+.benefits__icon-wrapper {
+        display: inline-block;
+        width: rem(126px);
+        height: rem(126px);
+        background-color: $grey;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+}
+
+.ben__icon {
+    // width: rem(64px);
+    // height: rem(64px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.benefit__description {
+    max-width: rem(279px);
+    color: $darcgrey;
+}
+
+.benefit__title {
+    margin-bottom: rem(18px);
+}
+

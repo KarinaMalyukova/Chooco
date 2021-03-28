@@ -1,0 +1,32 @@
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+@import "template/variables.scss";
+
+//z-indexes
+$z-fixed-menu: 100;
+
+@import "components/media.scss";
+
+//normalize
+@import "template/normalize.scss";
+
+//setups
+@import url(https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap);
+@import "layout.scss";
+
+
+
+//components
+@import "components/hero";
+@import "components/headline";
+@import "components/reviews.scss";
+@import "components/interactive-avatar.scss";
+@import "components/form.scss";
+@import "components/radio.scss";
+@import "components/fixed-menu.scss";
+@import "components/hamburger.scss";
+
+
+
