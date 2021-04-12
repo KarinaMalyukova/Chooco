@@ -1,0 +1,36 @@
+.footer-section {
+    height: 86px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.contact__street {
+    font-size: 21px;
+    color: #292929;
+    font-style: normal;
+}
+
+
+
+.footer__contacts__phone {
+    font-size: 21px;
+    color: #497870;
+}
+
+.social__item {
+    display: inline-flex;
+    margin-right: 17px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.social__icon {
+    width: 20px;
+    height: 20px;
+}

@@ -1,15 +1,15 @@
 .review-section{
-    background: url("/images/Ягода-3\ 1.png") right top no-repeat;
+    background: url("/images/strawberry.png") right top no-repeat;
     position: relative;
 
     &::before {
-        content: url("/images/Узор\ 1\ \(1\).png");
+        content: url("/images/bg_sheet.png");
         position: absolute;
         bottom: -20%;
     }
 
     &::after {
-        content: url("/images/Ягоды\ 2\ \(1\).png");
+        content: url("/images/berries.png");
         position: absolute;
         bottom: -10%;
     }
@@ -22,7 +22,7 @@
 }
 
 .reviews__display {
-    background: url("/images/review/Слой\ 2\ 1.png") top right no-repeat;
+    background: url("/images/bg_berries_tr.png") top right no-repeat;
     background-color: $lightgrey;
     padding: rem(42px) rem(142px) rem(42px) rem(42px);
     overflow: hidden;

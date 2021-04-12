@@ -1,10 +1,11 @@
 .order-section {
-    background: url("/images/ягода\ 1.png") left rem(51px) bottom rem(69px) no-repeat, url("/images/лист-3\ 1.png") right rem(10px) bottom rem(58px) no-repeat, url(/images/f4b3e323e1385106649e7de4219cd9d4.png);
+    background: url("/images/bg_green_raspb.png");
 }
 .form-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url("/images/berry.png") left bottom no-repeat, url("/images/sheet\(1\).png") right bottom no-repeat;
 }
 
 .section__title-review {

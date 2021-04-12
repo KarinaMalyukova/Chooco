@@ -3,13 +3,13 @@
     padding: rem(100px) rem(0px);
 
     &:before {
-    content: url("/images/узор\ лист\ 1.png");
+    content: url("/images/bg_sheet_tr.png");
     position: absolute;
     top: 50%;  
     }
 
     &:after {
-        content: url("/images/decoration/малина\ 1.png");
+        content: url("/images/candy_berry.png");
         position: absolute;
         bottom: -40%;
     }
